@@ -18,7 +18,7 @@ variables:
   environmentName: 'tailspin-space-game-15243'
 
   # Agent VM image name
-  vmImage: 'ubuntu-20.04'
+  vmImage: 'demovm2'
 
 stages:
 - stage: Build
@@ -27,7 +27,7 @@ stages:
   - job: MavenPackageAndPublishArtifacts
     displayName: Maven Package and Publish Artifacts
     pool:
-      name: $(MyAgent2)
+      name: $(vmImage)
 
     steps:
     - task: Maven@3
