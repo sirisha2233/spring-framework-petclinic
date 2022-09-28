@@ -18,7 +18,7 @@ variables:
   environmentName: 'tailspin-space-game-15243'
 
   # Agent VM image name
-  name: 'MyAgent2'
+  vmImage: 'ubuntu-20.04'
 
 stages:
 - stage: Build
