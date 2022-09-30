@@ -12,13 +12,13 @@ variables:
   azureSubscription: 'ce480f61-f1c7-4c7d-970a-a139640deb9e'
 
   # Web app name
-  webAppName: 'Java-Maven-1'
+  webAppName: 'Java-M'
 
   # Environment name
-  environmentName: 'Java-Maven-1'
+  environmentName: 'Java-M'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  name: 'MyAgent2'
 
 stages:
 - stage: Build
